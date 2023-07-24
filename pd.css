@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+ } 
+ body{
+ background-color: rgb(0, 0, 33);
+ color: white;
+ font-family: 'Poppins', sans-serif;
+ }
+ .hero{
+   height : 100vh;
+   width : 100%;
+   background-image: url(bgimg.jpg);
+   background-size: cover;
+   background-position: center;
+}
+nav{
+   display: inline;
+   align-items: center;
+   padding-left: 10%;
+   padding-right: 10%;
+   
+}
+nav ul1{
+   display: flex;
+   float: right;
+}    
+nav ul1 li{
+   padding:10px 20px;
+   font-size: 90%;
+}
+nav ul1 li a{
+   color: blue;
+   font-weight: bold;
+   text-decoration: none;
+}
+nav ul1 li a:hover{
+   color : red;
+   transition : 0s;
+}
+h2{
+   padding-top : 10px;
+   padding-left: 20px;
+   padding-bottom : 10px;
+   border-style: solid;
+   border: 5px 10px 5px 10px;
+   border-width: thick;
+   border-color: antiquewhite;
+}
+ul li{
+   padding: 10px;
+   font-size: larger;   
+}
+ul address{
+   padding:10px 10px;
+   font-size: large;
+}
+ul h6{
+   padding-right:50px;
+   padding-top:0px;
+   font-size: large;
+   float: right;
+}
+ul2 li{
+   padding:10px 10px;
+   font-size: large;
+   float: left;
+}
+ul3 li{
+   padding:10px 10px;
+   font-size: large;
+   float: left;
+}
+
+
+
+
