@@ -59,8 +59,8 @@ ul2 li{
    font-size: large;   
 }
 ul p{
-   padding: 10px 20px;
-   
+   padding: 0px 40px;
+   float : right;
 }
 ul2 p{
    padding-left: 30px;
